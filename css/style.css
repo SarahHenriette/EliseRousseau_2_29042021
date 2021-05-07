@@ -36,7 +36,6 @@ p {
 .navMenu--links {
     display: flex;
     justify-content: space-between;
-    margin-right: 7%;
     width: 30%;
     height: 15px;
 }
@@ -118,12 +117,21 @@ p {
 .filters .filters--filter {
     border: solid 2px #F2F2F2;
     border-radius: 20px;
-    height: 35px;
+    /* height: 35px; */
     display: flex;
     align-items: center;
     padding-right: 20px;
     margin-left: 25px;
+    margin-top: 10px;
+    font-weight: 700;
+    transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
 }
+
+.filters .filters--filter:hover {
+    background-color: #DEEBFF;
+    border-color: #DEEBFF;
+}
+
 .filters .filters--filter .filters--filter_icon {
     width: 39px;
     height: 39px;
@@ -137,6 +145,238 @@ p {
     position: relative;
     left: -4px;
 }
+
+/* info */
+.information {
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+}
+.information .information--icon {
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: 3px solid #F2F2F2;
+    color: #0065FC;
+    margin-right: 15px;
+}
+
+/* accomodation */
+
+.accommodation {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.accommodation--ticket_stars {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.accommodation--ticket_starBlue {
+    color: #0065FC;
+}
+
+.accommodation--ticket_starGrey {
+    color: #F2F2F2;
+}
+
+/* accomodation found*/
+.accommodation .accommodation--found {
+    width: 67%;
+    height: 625px;
+    background-color: #F2F2F2;
+    /* padding: 10px 30px; */
+    border-radius: 27px;
+}
+.accommodation .accommodation--found .accommodation--title {
+    width: 90%;
+    margin: 25px auto;
+}
+
+.accommodation .accommodation--found .accommodation--tickets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    height: 495px;
+}
+
+.accommodation .accommodation--found .accommodation--ticket {
+    width: 28%;
+    height: 190px;
+    background-color: #FFF;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    line-height: 20px;
+    box-shadow: -2px 3px 14px #c5c3c3;
+    /* cursor: pointer; */
+}
+.accommodation .accommodation--found .accommodation--ticket .accommodation--ticket_picture{
+    /* width: 95%; */
+    height: 105px;
+    /* background-color: red; */
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    /* margin: 5px auto; */
+}
+
+.accommodation .accommodation--found .accommodation--ticket .accommodation--ticket_pictureHotelPort {
+    background-image: url("../images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.accommodation .accommodation--found .accommodation--ticket  .accommodation--ticket_pictureHotelMouettes {
+    background-image: url("../images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.accommodation .accommodation--found .accommodation--ticket .accommodation--ticket_pictureHotelMer {
+    background-image: url("../images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.accommodation .accommodation--found .accommodation--ticket .accommodation--ticket_pictureAubergePanier {
+    background-image: url("../images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.accommodation .accommodation--found .accommodation--ticket .accommodation--ticket_pictureHotelAmina {
+    background-image: url("../images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.accommodation .accommodation--found .accommodation--ticket .accommodation--ticket_pictureAuberge{
+    background-image: url("../images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.accommodation .accommodation--found .accommodation--ticket p {
+    margin: 0;
+    text-align: left;
+    color: #000;
+}
+.accommodation .accommodation--found .accommodation--ticket .accommodation--ticket_name {
+    font-weight: 800;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.accommodation .accommodation--found .accommodation--ticket .accommodation--ticket_price {
+    font-weight: 600;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.accommodation .accommodation--found .accommodation--displayMore {
+    display: block;
+    color: #000;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* accomodation most popular*/
+.accommodation .accommodation--mostPopular {
+    width: 30%;
+    height: 625px;
+    background-color: #F2F2F2;
+    border-radius: 27px;
+
+}
+
+.accommodation .accommodation--mostPopular .accommodation--tickets {
+    width: 90%;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+.accommodation .accommodation--mostPopular .accommodation--tickets .accommodation--ticket {
+    width: 90%;
+    height: 148px;
+    background-color: #FFF;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: -2px 3px 14px #c5c3c3;
+}
+.accommodation .accommodation--mostPopular .accommodation--title {
+    width: 83%;
+    margin: 25px auto;
+ }
+
+ .accommodation .accommodation--mostPopular .accommodation--tickets .accommodation--ticket {
+     display: flex;
+     padding: 5px;
+     /* cursor: pointer; */
+ }
+
+ .accommodation .accommodation--mostPopular .accommodation--tickets .accommodation--ticket .accommodation--ticket_picture {
+    width: 40%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+ }
+
+ .accommodation .accommodation--mostPopular .accommodation--tickets .accommodation--ticket .accommodation--ticket_infos {
+    width: 60%;
+    position: relative;
+ }
+
+ .accommodation .accommodation--mostPopular .accommodation--tickets .accommodation--ticket .accommodation--ticket_infos p {
+    color: #000;
+ }
+
+ .accommodation .accommodation--mostPopular .accommodation--ticket .accommodation--ticket_name {
+    font-weight: 800;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.accommodation .accommodation--mostPopular .accommodation--ticket .accommodation--ticket_price {
+    font-weight: 600;
+    font-size: 11px;
+    margin-left: 10px;
+}
+.accommodation .accommodation--mostPopular .accommodation--ticket .accommodation--ticket_stars {
+    position: absolute;
+    bottom: 10px;
+}
+.accommodation .accommodation--mostPopular .accommodation--ticket .accommodation--ticket_pictureSoleilMatin{
+    background-image: url("../images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.accommodation .accommodation--mostPopular .accommodation--ticket .accommodation--ticket_pictureChambreHote {
+    background-image: url("../images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.accommodation .accommodation--mostPopular .accommodation--ticket .accommodation--ticket_pictureHotelBleuBlanc {
+    background-image: url("../images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
 
 @media screen and (max-width: 850px) {
     /* Menu de navigation */
@@ -164,7 +404,6 @@ p {
         border-bottom: 3px transparent solid;
         transition: border-bottom .4s ease-in-out;
     }
-
     .navMenu--link:hover {
         border-bottom: 3px #0065FC solid;
     }
@@ -195,5 +434,29 @@ p {
     .filters .filters--filter {
         margin: 10px 10px 0 0;
 
+    }
+
+    .accommodation {
+        flex-direction: column-reverse;
+        width: auto;
+    }
+    .accommodation .accommodation--found {
+        background-color: transparent;
+        width: 100%;
+        padding: 0;
+    }
+    .accommodation .accommodation--found .accommodation--tickets {
+        justify-content: center;
+    }
+    .accommodation .accommodation--found .accommodation--tickets .accommodation--ticket {
+        width: 93%;
+    }
+
+
+    .accommodation .accommodation--mostPopular { 
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+        
     }
 }
