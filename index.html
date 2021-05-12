@@ -10,21 +10,24 @@
     <title>Reservia</title>
 </head>
 <body>
-   <div class="navMenu">
-    <div class="navMenu--logo"><img src="images/logo/Reservia.svg" alt=""></div>
-    <ul class="navMenu--links">
-        <li class="navMenu--link navMenu--link_accommodation"><a href="#accomodation">Hébergements</a></li>
-        <li class="navMenu--link navMenu--link_activities"><a href="#activities">Activités</a></li>
-        <li class="navMenu--link navMenu--link_register"><a href="#">S'inscrire</a></li>
-    </ul>
+    <main>
+   <header class="navMenu">
+    <div class="navMenu--logo"><img src="images/logo/Reservia.svg" alt="logo du site Reservia"></div>
+    <nav>
+        <ul class="navMenu--links">
+            <li class="navMenu--link navMenu--link_accommodation"><a href="#accomodation">Hébergements</a></li>
+            <li class="navMenu--link navMenu--link_activities"><a href="#activities">Activités</a></li>
+            <li class="navMenu--link navMenu--link_register"><a href="#">S'inscrire</a></li>
+        </ul>
+    </nav>
     <a href="#" class="navMenu--linkMobile_register">S'inscrire</a>
-   </div>
+   </header>
    <div class="search">
        <h1 class="search--title">Trouvez votre hébergement pour des vacances de rêve</h1>
        <p class="search--subtitle">En plein centre ville ou en pleine nature</p>
-       <form action="" class="search--form">
-           <label class="search--form_markerLabel" for=""><i class="fas fa-map-marker-alt"></i></label>
-           <input class="search--form_text" type="text" placeholder="ex: Marseille, France">
+       <form class="search--form">
+           <label class="search--form_markerLabel" for="search"><i class="fas fa-map-marker-alt"></i></label>
+           <input class="search--form_text" type="text" placeholder="ex: Marseille, France" id="search">
            <input class="search--form_submit" type="submit" value="Rechercher">
        </form>
    </div>
@@ -118,7 +121,7 @@
            <a href="# " class="accommodation--displayMore">Afficher plus</a>
        </div>
         <div class="accommodation--mostPopular">
-            <h2 class="accommodation--title">Les plus populaires</h2>
+            <h2 class="accommodation--title">Les plus populaires<i class="fas fa-chart-line"></i></h2>
             <div class="accommodation--tickets">
                 <a href="#" class="accommodation--ticket">
                     <div class="accommodation--ticket_picture accommodation--ticket_pictureSoleilMatin"></div>
@@ -169,37 +172,37 @@
     <div class="activities" id="activities">
         <h2 class="activities--title">Activités à Marseille</h2> 
         <div class="activities--tickets">
-            <div class="activities--activity activities--activity_tall">
-                <div class="activities--activity_image activities--activity_vieuxPort"></div>
+            <a href="#" class="activities--activity activities--activity_tall">
+                <div class="activities--activity_picture activities--activity_vieuxPort"></div>
                 <h3>Vieux Port</h3>
-            </div>
-            <div class="activities--activity">
+            </a>
+            <a href="#" class="activities--activity">
                 <div class="activities--activity_small">
-                    <div class="activities--activity_image activities--activity_fortPomegues"></div>
+                    <div class="activities--activity_picture activities--activity_fortPomegues"></div>
                     <h3>Fort de Pomègues</h3>
                 </div>
                 <div class="activities--activity_small">
-                    <div class="activities--activity_image activities--activity_ileFrioul"></div>
+                    <div class="activities--activity_picture activities--activity_ileFrioul"></div>
                     <h3>Iles du Frioul</h3>
                 </div>
-            </div>
-            <div class="activities--activity activities--activity_tall">
-                <div class="activities--activity_image  activities--activity_parcCalanques"></div>
+            </a>
+            <a href="#" class="activities--activity activities--activity_tall">
+                <div class="activities--activity_picture  activities--activity_parcCalanques"></div>
                 <h3>Parc National des Calanques</h3>
-            </div>
-            <div class="activities--activity activities--activity_small">
+            </a>
+            <a href="#" class="activities--activity activities--activity_small">
                 <div class="activities--activity_small">
-                    <div class="activities--activity_image  activities--activity_notreDameGarde"></div>
+                    <div class="activities--activity_picture  activities--activity_notreDameGarde"></div>
                     <h3>Notre-Dame-de-la-Garde</h3>
                 </div>
                 <div class="activities--activity_small">
-                    <div class="activities--activity_image activities--activity_parcLongchamp"></div>
+                    <div class="activities--activity_picture activities--activity_parcLongchamp"></div>
                     <h3>Parc Longchamp</h3>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
-
+</main>
     <footer class="footer">
         <div class="footer--about">
             <h3>A propos</h3>
