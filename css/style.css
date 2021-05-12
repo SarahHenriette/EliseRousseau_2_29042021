@@ -20,7 +20,7 @@ p {
 }
 
 main {
-    padding: 0 40px;
+    padding: 0 30px;
     margin: auto;
 }
 
@@ -571,8 +571,9 @@ footer .footer--about p, footer .footer--ourAccomodations p, footer .footer--ass
 
     .accommodation .accommodation--mostPopular { 
         width: 100%;
-        padding: 0;
+        padding: 0 30px;
         border-radius: 0;
+        margin-left: -30px;
     }
 
     /* activities */
@@ -619,18 +620,19 @@ footer .footer--about p, footer .footer--ourAccomodations p, footer .footer--ass
     main {
         padding: 0 15px;
     }
-    .accommodation .accommodation--found .accommodation--tickets {
-        justify-content: center;
-    }
-
-    .information {
-        margin: 7% auto;
-        font-size: 10px;
-    }
 
     /* filter */
     .filters .filters--title {
         width: 100%;
+    }
+
+    .information {
+        margin: 7% auto;
+        font-size: 12px;
+    }
+
+    .accommodation .accommodation--found .accommodation--tickets {
+        justify-content: center;
     }
 
     .accommodation .accommodation--found .accommodation--tickets .accommodation--ticket {
