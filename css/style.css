@@ -650,4 +650,8 @@ footer .footer--about p, footer .footer--ourAccomodations p, footer .footer--ass
     .accommodation .accommodation--found .accommodation--tickets .accommodation--ticket {
         width: 93%;
     }
+
+    .accommodation .accommodation--mostPopular { 
+        padding: 0 22px;
+    }
 }
