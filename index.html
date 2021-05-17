@@ -10,19 +10,19 @@
     <title>Reservia</title>
 </head>
 <body>
+    <header class="navMenu">
+        <div class="navMenu--logo"><img src="images/logo/Reservia.svg" alt="logo du site Reservia"></div>
+        <nav>
+            <ul class="navMenu--links">
+                <li class="navMenu--link navMenu--link_accommodation"><a href="#accomodation">Hébergements</a></li>
+                <li class="navMenu--link navMenu--link_activities"><a href="#activities">Activités</a></li>
+                <li class="navMenu--link navMenu--link_register"><a href="#">S'inscrire</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="navMenu--linkMobile_register">S'inscrire</a>
+    </header>
     <main>
-   <header class="navMenu">
-    <div class="navMenu--logo"><img src="images/logo/Reservia.svg" alt="logo du site Reservia"></div>
-    <nav>
-        <ul class="navMenu--links">
-            <li class="navMenu--link navMenu--link_accommodation"><a href="#accomodation">Hébergements</a></li>
-            <li class="navMenu--link navMenu--link_activities"><a href="#activities">Activités</a></li>
-            <li class="navMenu--link navMenu--link_register"><a href="#">S'inscrire</a></li>
-        </ul>
-    </nav>
-    <a href="#" class="navMenu--linkMobile_register">S'inscrire</a>
-   </header>
-   <div class="search">
+   <section class="search">
        <h1 class="search--title">Trouvez votre hébergement pour des vacances de rêve</h1>
        <p class="search--subtitle">En plein centre ville ou en pleine nature</p>
        <form class="search--form">
@@ -31,18 +31,16 @@
            <input class="search--form_submit" type="submit" value="Rechercher">
            <button class="search--form_submitMobile" type="submit"><i class="fas fa-search"></i></button>
        </form>
-   </div>
-   <div class="filters">
-       <h2 class="filters--title">Filtres</h2> <br>
-        <div class="filters--filter filters--filter_economic"><i class="fas fa-money-bill-wave filters--filter_icon"></i>Economique</div>
-        <div class="filters--filter filters--filter_family"><i class="fas fa-child filters--filter_icon"></i>Familial</div>
-        <div class="filters--filter filters--filter_romantic"><i class="fas fa-heart filters--filter_icon"></i>Romantique</div>
-        <div class="filters--filter filters--filter_petsAllowed"><i class="fas fa-dog filters--filter_icon"></i>Animaux autorisés</div>
-   </div>
-
-   <div class="information"><i class="fas fa-info information--icon"></i>Plus de 500 logements sont disponibles dans cette ville</div>
-
-   <div class="accommodation" id="accomodation">
+       <div class="filters">
+            <h2 class="filters--title">Filtres</h2> <br>
+            <div class="filters--filter filters--filter_economic"><i class="fas fa-money-bill-wave filters--filter_icon"></i>Economique</div>
+            <div class="filters--filter filters--filter_family"><i class="fas fa-child filters--filter_icon"></i>Familial</div>
+            <div class="filters--filter filters--filter_romantic"><i class="fas fa-heart filters--filter_icon"></i>Romantique</div>
+            <div class="filters--filter filters--filter_petsAllowed"><i class="fas fa-dog filters--filter_icon"></i>Animaux autorisés</div>
+        </div>
+        <div class="results"><i class="fas fa-info results--icon"></i>Plus de 500 logements sont disponibles dans cette ville</div>
+   </section>
+   <section class="accommodation" id="accomodation">
        <div class="accommodation--found">
            <h2 class="accommodation--title">Hébergements à Marseille</h2>
            <div class="accommodation--tickets">
@@ -168,9 +166,8 @@
                 </a>
             </div>
         </div>
-    </div>
-
-    <div class="activities" id="activities">
+    </section>
+    <section class="activities" id="activities">
         <h2 class="activities--title">Activités à Marseille</h2> 
         <div class="activities--tickets">
             <a href="#" class="activities--activity activities--activity_tall">
@@ -202,7 +199,7 @@
                 </div>
             </a>
         </div>
-    </div>
+    </section>
 </main>
     <footer class="footer">
         <div class="footer--about">

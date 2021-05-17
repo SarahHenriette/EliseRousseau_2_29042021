@@ -36,10 +36,15 @@ main {
     width: 27%;
 }
 
+.navMenu--logo {
+    margin-left: 30px;
+}
+
 .navMenu--links {
     display: flex;
     justify-content: space-between;
     height: 15px;
+    margin-right: 30px;
 }
 
 .navMenu--link a {
@@ -65,7 +70,7 @@ main {
 
 /* search bar */
 .search {
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 .search .search--title {
@@ -122,7 +127,7 @@ main {
 .filters {
     display: flex;
     align-items: center;
-    margin-top: 3%;
+    margin-top: 1%;
     flex-wrap: wrap;
 }
 .filters .filters--title {
@@ -160,11 +165,11 @@ main {
     left: -4px;
 }
 
-/* info */
-.information {
+/* results */
+.results {
     margin-top: 2%;
 }
-.information .information--icon {
+.results .results--icon {
     padding: 10px 15px;
     border-radius: 50%;
     border: 3px solid #F2F2F2;
@@ -550,13 +555,13 @@ footer .footer--about p, footer .footer--ourAccomodations p, footer .footer--ass
     }
 
     /* information  */
-    .information {
+    .results {
         margin: 3% 0;
         width: 100%;
         font-size: 12px;
     }
 
-    .information .information--icon {
+    .results .results--icon {
         padding: 5px 9px;
         margin-right: 6px;
     }
@@ -668,7 +673,7 @@ footer .footer--about p, footer .footer--ourAccomodations p, footer .footer--ass
         font-size: 14px;
     }
 
-    .information {
+    .results {
         margin: 7% auto;
         font-size: 12px;
     }
