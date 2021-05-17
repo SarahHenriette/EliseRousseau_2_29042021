@@ -74,6 +74,7 @@ main {
 
 .search .search--form {
     display: flex;
+    position: relative;
 }
 
 .search .search--form .search--form_markerLabel {
@@ -103,6 +104,18 @@ main {
     border: none;
     border-radius: 0 10px 10px 0;
     color: #FFF;
+}
+
+.search--form_submitMobile {
+    display: none;
+}
+
+
+.search .search--form .test {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 700;
 }
 
 /* filter */
@@ -626,6 +639,23 @@ footer .footer--about p, footer .footer--ourAccomodations p, footer .footer--ass
 @media screen and (max-width: 420px) {
     main {
         padding: 0 15px;
+    }
+
+    /* search  */
+    .search .search--form .search--form_submit {
+       display: none;
+    }
+    
+    .search--form_submitMobile {
+        display: block;
+        width: 40px;
+        background-color: #0065FC;
+        border: none;
+        border-radius: 10px 10px 10px 10px;
+        color: #FFF;
+        position: relative;
+        right: 5%;
+      
     }
 
     /* filter */
