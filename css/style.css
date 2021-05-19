@@ -481,6 +481,9 @@ footer .footer--about p, footer .footer--ourAccomodations p, footer .footer--ass
 }
 
 @media screen and (max-width: 1100px) {
+    main {
+        overflow: hidden;
+    }
     /* Menu de navigation */
     .navMenu {
         position: relative;
@@ -690,9 +693,5 @@ footer .footer--about p, footer .footer--ourAccomodations p, footer .footer--ass
 
     .accommodation .accommodation--found .accommodation--cards .accommodation--card {
         width: 93%;
-    }
-
-    .accommodation .accommodation--mostPopular { 
-        padding: 0 22px;
     }
 }
