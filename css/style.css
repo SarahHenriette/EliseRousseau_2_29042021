@@ -401,8 +401,7 @@ main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 20px;
-    height: 600px;
-    /* background-color: rgb(233, 136, 136); */
+    height: 490px;
 }
 
 .activities .activities--activity {
@@ -533,7 +532,7 @@ footer .footer--about p, footer .footer--ourAccomodations p, footer .footer--ass
     }
     .navMenu--link a{
         border-top: none;
-        padding: 15px 120px;
+        padding: 15px 65px;
     }
     .navMenu--link a:hover{
         border-top: none;
@@ -634,15 +633,6 @@ footer .footer--about p, footer .footer--ourAccomodations p, footer .footer--ass
     footer .footer--about, footer .footer--ourAccomodations, footer .footer--assistance {
         width: 80%;
         height: 160px;
-    }
-}
-@media screen and (max-width: 640px) { 
-    /* activities  */
-    .activities .activities--cards {
-        justify-content: center;
-    }
-    .activities .activities--cards .activities--activity {
-        width: 100%;
     }
 }
 @media screen and (max-width: 420px) {
