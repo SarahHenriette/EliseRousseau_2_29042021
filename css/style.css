@@ -246,8 +246,8 @@ main {
 .accommodation .accommodation--found .accommodation--card .accommodation--card_name {
     font-weight: 800;
     font-size: 13px;
-    margin-top: 10px;
-    margin-left: 10px;
+    color: #000;
+    margin: 10px 0 0 10px;
 }
 .accommodation .accommodation--found .accommodation--card .accommodation--card_price {
     font-weight: 600;
@@ -312,8 +312,8 @@ main {
 .accommodation .accommodation--mostPopular .accommodation--card .accommodation--card_name {
     font-weight: 800;
     font-size: 13px;
-    margin-top: 10px;
-    margin-left: 10px;
+    color: #000;
+    margin: 10px 0 0 10px;
 }
 .accommodation .accommodation--mostPopular .accommodation--card .accommodation--card_price {
     font-weight: 600;
@@ -426,7 +426,6 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
 footer .footer--about, footer .footer--ourAccomodations, footer .footer--assistance {
     width: 31%;
 }
