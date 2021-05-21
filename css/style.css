@@ -303,7 +303,7 @@ main {
     border-radius: 15px 0 0 15px;
 }
 .accommodation .accommodation--mostPopular .accommodation--cards .accommodation--card .accommodation--card_infos {
-    width: 60%;
+    width: 55%;
     position: relative;
 }
 .accommodation .accommodation--mostPopular .accommodation--cards .accommodation--card .accommodation--card_infos p {
