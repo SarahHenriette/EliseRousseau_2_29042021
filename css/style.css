@@ -548,16 +548,35 @@ footer .footer--about p, footer .footer--ourAccomodations p, footer .footer--ass
         margin: 25px 5%;
     }
     .activities .activities--cards {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 3fr;
         height: auto;
-        width: 90%;
-        margin: auto;
     }
-    .activities .activities--cards .activities--activity {
-        width: 46%;
+    .activities .activities--activity_1 {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1
     }
+    .activities .activities--activity_2 {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1;
+    }
+    .activities .activities--activity_3 {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+    }
+    .activities .activities--activity_4 {
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1
+    }
+    .activities .activities--activity_5 {
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+    }
+    .activities .activities--activity_6 {
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
+    }
+
     .activities .activities--activity{
         margin-bottom: 6%;
         height: 250px;
@@ -629,9 +648,31 @@ footer .footer--about p, footer .footer--ourAccomodations p, footer .footer--ass
 
     /* activities  */
     .activities .activities--cards {
-        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr;
     }
-    .activities .activities--cards .activities--activity {
-        width: 100%;
+    .activities .activities--activity_1 {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1
+    }
+    .activities .activities--activity_2 {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+    }
+    .activities .activities--activity_3 {
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+    }
+    .activities .activities--activity_4 {
+        grid-column: 1 / span 1;
+        grid-row: 4 / span 1
+    }
+    .activities .activities--activity_5 {
+        grid-column: 1 / span 1;
+        grid-row: 5 / span 1;
+    }
+    .activities .activities--activity_6 {
+        grid-column: 1 / span 1;
+        grid-row: 6 / span 1;
     }
 }
