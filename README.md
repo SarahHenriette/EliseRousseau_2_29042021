@@ -1,5 +1,5 @@
 # Reservia - intégration de maquette
-Le but de ce projet à été d'intégrer une maquette en HTML et CSS.
+Le but de ce projet a été d'intégrer une maquette en HTML et CSS.
 
 # Compétences acquises :
 - Implémenter une interface responsive
