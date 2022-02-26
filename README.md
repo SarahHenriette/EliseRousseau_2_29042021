@@ -1,6 +1,7 @@
 # Reservia - intégration de maquette
+Le but de ce projet à été d'intégrer une maquette en HTML et CSS.
 
-# Compétences acquises 
+# Compétences acquises :
 - Implémenter une interface responsive
 - Intégrer du contenu conformément à une maquette
 
@@ -9,5 +10,5 @@
 - CSS
 - convention de nommage BEM 
 
-# Visuel
-![alt text](https://github.com/SarahHenriette/EliseRousseau_2_29042021/blob/main/maquette-portfolio-entiere.png)
+# Démo :
+https://elise-rousseau-2-29042021.vercel.app/
